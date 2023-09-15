@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SampleHiearchies.Data\SampleHierarchies.Data.csproj" />
+    <ProjectReference Include="..\SampleHierachies.Enums\SampleHierachies.Enums.csproj" />
+    <ProjectReference Include="..\SampleHierachies.Gui\SampleHierachies.Gui.csproj" />
+    <ProjectReference Include="..\SampleHierachies.Helpers\SampleHierachies.Helpers.csproj" />
+    <ProjectReference Include="..\SampleHierarchies.Services\SampleHierarchies.Services.csproj" />
+  </ItemGroup>
+
+</Project>
